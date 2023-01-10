@@ -3,7 +3,7 @@ import dotenv from "dotenv"
 
 dotenv.config();
 const USERNAME = process.env.DB_username;
-const PASSWORD  = process.env.DB_passsword;
+const PASSWORD  = process.env.DB_password;
 
 
 const connection = ()=>{
